@@ -47,7 +47,6 @@ int main(int argc, char *argv[])
         if (n < 0)
              error("ERROR reading from socket");
         printf("%s\n",buffer);
-        printf("iteration \r\n");
         if(buffer[0] == '*'){
           printf("Asterisk \r\n");
           break;
